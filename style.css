@@ -24,11 +24,11 @@ body {
     width: 50%;
 }
 
-.logoImage{
+.logoImage {
     margin-left: 4rem;
 }
 
-.listItems{
+.listItems {
     display: flex;
     justify-content: space-evenly;
     align-content: center;
@@ -58,11 +58,11 @@ body {
     padding-top: 70px;
 }
 
-h1{
+h1 {
     font-size: 5rem;
 }
 
-p{
+p {
     font-size: 2rem;
 }
 
@@ -71,7 +71,7 @@ section {
     border-bottom: 1px solid #ddd;
 }
 
-.divider{
+.divider {
     width: 100%;
     height: 0.5vh;
     background-color: black;
@@ -140,7 +140,16 @@ section {
     color: #ff9800;
 }
 
-.footer > p{
+.footer>p {
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+@media screen and (max-width: 900px) {
+
+    .logoImage {
+        margin-left: 2rem;
+    }
+
+
 }
